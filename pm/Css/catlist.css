@@ -1,0 +1,9 @@
+﻿.dtnews{width:100%;table-layout:fixed;border-collapse:collapse;}
+.dtnews thead tr td {border:1px solid #ddd;background-color:#dde6ef;height:36px;padding:3px;font-size:14px;text-align:center;}
+.dtnews tbody tr td {border:1px solid #eee;height:36px;padding:3px;font-size:12px;text-align:center;}
+.dtnews tbody tr.erow td{background-color:#f7f7f7}
+.dtnews tbody tr td.tleft{text-align:left;padding-left:6px;}
+#path{ height:28px; border-bottom:1px solid #b2b2b2;margin-bottom:5px;}
+#path h2{margin-top:0px; font-size:16px; line-height:24px; float:left; background:url(../img/index/path.jpg)1px 2px no-repeat; padding-left:18px;}
+#path .link{ float:right; font-size:12px; line-height:24px;}
+#path .link a.hover,#path .link a:hover{ color:#5886de; text-decoration:none;}

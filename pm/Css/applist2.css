@@ -1,0 +1,84 @@
+.hDiv{
+	background: url() !important;	
+}
+.hDivBox table{
+    background-color: #F1F1F1;
+    font-size: 13px;
+    line-height: 2;
+    border-bottom: 1px solid #BEBFC1;
+	border-right: 1px solid #E6E9EA !important;
+}
+
+.hDivBox table th{  
+    border-left: 0px !important;
+    border-right: 0px !important;
+	    
+}
+.bDiv table {  
+    border-right: 1px solid #E6E9EA !important;
+}
+.bDiv tr td{
+	border-left: 0px !important;
+    border-right: 0px !important;
+	height:35px;
+	vertical-align:middle !important;
+}
+.findTbl input{
+	float:left;
+    display: block;
+    width: auto;
+    height: 20px;
+    padding: 3px 8px;
+    font-size: 13px;
+    line-height: 1.53846154;
+    color: #222;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+.findTbl select{
+    display: block;
+    width: auto;
+    height: 32px;
+    padding: 3px 8px;
+    font-size: 13px;
+    line-height: 1.53846154;
+    color: #222;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.flexigrid div.tDiv {
+    line-height:23px;
+}
+.flexigrid div.btnseparator {
+
+    padding-top: 5px;
+}
+.flexigrid div.nBtn {
+    height: 35px !important;
+   
+}

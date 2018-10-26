@@ -1,0 +1,44 @@
+﻿* { margin: 0; padding: 0; border: 0; list-style: none; }
+body { background: #fff; }
+a { color: #333; text-decoration: none; cursor: pointer; } 
+.clear { clear: both; }
+/*添加项目*/ 
+.addpro {line-height: 60px; width:60px; border-radius: 50%; position: absolute; left: 10px; top: 10px;text-align: center; background: #32bce1; color: #fff; }
+.addpro .iconfont { font-size:30px;}
+.addpro:hover { background: #2286c4; }
+
+.h3box { clear:both;overflow: hidden;}
+.h3box h3{margin:10px;} 
+
+.h3box1 li {float:left;position:relative;height:3px;background:#4f5f6f;}
+.h3box1 a{display:block;text-align:center;border-radius:50%;color:#fff;box-shadow:0 0 5px #4f5f6f;position:absolute;left:50%;font-size: 18px; }
+.h3box1 a:hover {  background-color: #2286c4; border-color: #2181bd; color: #fff;}
+.h3box1 p { position:absolute;left:0;height:68px;width:100%;}
+.h3box1 li:nth-child(2n) p{background: url(../img/procbg.png) no-repeat top center;bottom:-6px;}
+.h3box1 li:nth-child(2n+1) p{background: url(../img/procbg1.png) no-repeat bottom center;top:-6px;}
+
+.h3box1 li:nth-child(2n) a{bottom:55px;}
+.h3box1 li:nth-child(2n+1) a{top:55px;}
+
+.h3box2 h3,
+.h3box3 h3,
+.h3boxpro h3 { margin:20px 10px;}
+.h3box2 a,
+.h3box3 a { float:left;margin:10px; line-height: 60px;height: 60px;overflow:hidden; padding: 0px 30px; font-size: 18px; text-align: center;box-shadow:0 0 5px #4f5f6f;color: #fff; border-radius: 4px;}
+
+.h3box1 a:hover,
+.h3box2 a:hover,
+.h3box3 a:hover{ background-color: #2286c4; color: #fff; }
+.prolist a:hover{ background-color: #2286c4; color: #fff;box-shadow:0 0 5px #4f5f6f; }
+.prolist a:hover .fdir { color: #fff; }
+ 
+.h3box1 h3{ color:#32bce1;}
+.h3box1 a { background:#32bce1;}
+.h3box2 h3{ color:#008792;}
+.h3box2 a { background:#008792;}
+.h3box3 h3{ color:#5e7c85;}
+.h3box3 a { background:#5e7c85;}
+.h3boxpro h3,
+.h3boxpro a { color:#43aeb5;}
+
+.prolist a { float:left;margin:10px;padding:5px;font-size: 18px; border-radius: 4px;text-align:center;} 

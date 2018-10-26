@@ -1,0 +1,1051 @@
+[09:03:01]|Error|密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:01]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:03]|Error|密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:03]|Error|System.Exception: 密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:04]|Error|密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:04]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:04]|Error|密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:04]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:04]|Error|密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:04]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:05]|Error|密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:05]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:08]|Error|密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:08]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:08]|Error|密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:08]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtue18aAS0vVZxZZ5dTw.K9KRZaTG0B08TUkjlSbH3kDPPaEkFvqzPufMmCZQF5ZriVrPvBW0sJtFZFZpCl.VKq9NukGTuq_SwRxcXcD57MO9QBk4KBYOBmOVxtpOHbn6DS1IZhviek4.ey1YHBCpgs71qaaZHaLjFnXh6RZg9f29QJxAHfQiHdr2vW5Vp2EaONARoA74k6.x_EiLB0JCAs73AnggVD_PkG76ZaaR8o41T7takG.eIb6sfXbsuuoCm7e7rcUBazMgZHEjUuF4qVJaIrV29TdMc0w==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:08]|Error|密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:08]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:08]|Error|密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:08]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:09]|Error|密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:09]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:09]|Error|密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:09]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwORU8lSWzkhtucwbsmMDdvlj6_V2okcL4sUk5J7AQlGhTUEMkyBA6N0KfP278mASvNqPEizvrbs2xuplQRV4mF9fcp0i0DJVz0nL63suh01ruDXiRr.N7qT8EUIRyL7wBNlrQTMVJl5X3FUJaLwowU6za_5TomcN44Yq5jqxfYehBSB8aiLBjbGf.qrEpM0JID0BB.Wk8tu9yiNHYwxzD7nRHiJca3cFDn8P.zjQrfDRAcedO9GWpoIVztXoYU1oVFvw1TpsNYBn5Q==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:09]|Error|密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:09]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:09]|Error|密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:09]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:09]|Error|密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:09]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneefUOHzk9L.L9ywhhc.zsz9j1vaDjiesqozxSQAxu8B11Za0CV9atJXrLOFn8BEnqfquYnv39XI.blUA70ksueutzN81eadB4Ec84_3N6tpsIrrigpczU_9SKdmBqUt8uJWfQYTRP5Vg62rkVkjMUvDhXnEwHseRhCq_ic2GvI5GeH0wxFKOojzx4XifFPXWcpIBSAYRhWSvSVeBoqB_LXle0fmFq9.PdDTC3wMx01l0NcT5wEmuFQ53fAg.PTQARQ==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:10]|Error|密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:10]|Error|System.Exception: 密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:10]|Error|密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:10]|Error|System.Exception: 密文：OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTR8AwNJXqh3oI9d5HE9ouezOFobPN268kZj40Gjyb2ubs4y9GQnkOkhygdjKvY82wMhOxTCQIkJjDpTzKpDnfIaat4hui1XTBN_ZepESgDMB4LnsWaHJ84wTGuodljcSdqjdyhjgHR3Dn_HybHcLFkg25kZm5GCTpBCNzh1NN0RVF3EgKpqG5co8w0P.3pz9LoAWy9ydR3oCXCJ8EJ9GFlDTt3L5efWI9mRM4cj5NInTY7MBmDEDUiLBwuvZlPhYosrU7rIh8fXgP4a52VD5XBt8GDZbw6FIwuFkZkCQ7mbA==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:10]|Error|密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:10]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:10]|Error|密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:10]|Error|System.Exception: 密文：OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOTIEbsCsCeneXk71AEK0V9Ft85LEUe0XN1bNxHs16byV4.wHfiCdjBTFn4ZGYcWRrtrR_ay5apMkt66Jn0CuK.LKh4LzdvgYV6XFMAd6uQkYusYqMwu7AFH8ak6nNzo4VhDGJtLnhWbMOWty37En.MFUIg3Bdj6KEbhx13Jnnh04sqYnhoQ_q02MpR7kLLAv8bw3sIHd7raopocqo1uphFAEF.Nt.IJbkbAeGt2jRAA8hHQAuE_Es60wMq9ChgxMBGWwB0ElPx2BGjlnssMbVKcepb7QOLSRjAh6F3EHRrteJZ7Vill1tI_&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:11]|Error|密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:11]|Error|System.Exception: 密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:11]|Error|密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:11]|Error|System.Exception: 密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:11]|Error|密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:11]|Error|System.Exception: 密文：OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOSYKfC8tDMOlzp6Y8wfQtHskrMEMN5uLXg88q6Na858.pq9uwX5eUZ3HTWI9syqsFK2iQeqAXj8YpkBnxyFhBmTCPYg9qB.0aoeWTOCSgMdq3YmcIGMUb8wiqzbm4d.2qpkqgN4cwLWnSMr.546_VCxIiOqZeXD8lPl0KYHipUSb.3Pa.HLAy.LiHA5xYVKpVrKXXkBkv25c6vkKeSk5Kftq1A9fdr1P9WyAW65zfFfTz6dLj0Zxs3HZ_kY_ZeHwRqzlKaV3JZTzFzm8KeWRTCj0V0lBKvj2A71YtYYFZVMtg==&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:11]|Error|密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:11]|Error|System.Exception: 密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:11]|Error|密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:11]|Error|System.Exception: 密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:12]|Error|密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:12]|Error|System.Exception: 密文：OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=，钥匙：203023，参数名：InitCond，地址：/nkpmv2/SysFolder/AppFrame/AppDefault.aspx?para=OArNnespwOR_o7W0czaYwfQkCb23bb1FzfvYAyz.lfUtguH1hwUiJGvzGYErFy2SS37mMVRZfraBcQOiTphl.nbRZbHMS97o4_fXlRTkoYeqbCcYNcGyAQ1MxZtqOkhPNLZ1oAfibOJpTdskP94.febhsg9OXcXMRN9wHsdaMiyhUzvt0jEmVLG6P52SgOF2X4SVE7dEP_C6pNKCe_gMnChuVWxZdvZ.ubFo7EWUkz4HsWXoGRr9VAifkl5.DD_gft2s3yx4C0rggdiKs6m4oJ9.DNEbqWgThY.WjwIvk4SwDtYg7Tbw9Y8MjLSW9bQZBdOdtpxIYM2TIHyzfHt2MWyZcTLWypERvauAUkQU.m4=&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDefault.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDefault.aspx.cs:行号 35
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:13]|Error|密文：zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:13]|Error|System.Exception: 密文：zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=，钥匙：203023，参数名：SystemType，地址：/nkpmv2/WorkAsp/FileManger/FileMain.aspx?para=zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 NTJT.Web.WorkAsp.FileManger.FileMain.Page_Load(Object sender, EventArgs e) 位置 G:\5lsoft\work\Projects\NTJT.ORACLE\NTJT\NTJT.Web\WorkAsp\FileManger\FileMain.aspx.cs:行号 29
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:13]|Error|密文：zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:13]|Error|System.Exception: 密文：zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=，钥匙：203023，参数名：SystemType，地址：/nkpmv2/WorkAsp/FileManger/FileMain.aspx?para=zEFDwcyURN9GwidE3Gsl5WjkfrjAP0t17oYlKWFs5D7pKKPWXyxjXODVojDX78iuhB.O91acUsZY8zc_Jg.L8Kmw5YBWQ5TnD5gwsHMCPGBsguMDo9jkq5itJQxog5ghEr7xmmxkJkpc02gTgsU3HnedQPZkZHXqTDynk1IhjVg=&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 NTJT.Web.WorkAsp.FileManger.FileMain.Page_Load(Object sender, EventArgs e) 位置 G:\5lsoft\work\Projects\NTJT.ORACLE\NTJT\NTJT.Web\WorkAsp\FileManger\FileMain.aspx.cs:行号 29
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:14]|Error|密文：OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:14]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe，钥匙：203023，参数名：mainId，地址：/nkpmv2/SysFolder/AppFrame/AppDataLimit.aspx?para=OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDataLimit.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDataLimit.aspx.cs:行号 32
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:03:14]|Error|密文：OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe，钥匙：203023，解密错误：不正确的数据。
+
+[09:03:14]|Error|System.Exception: 密文：OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe，钥匙：203023，参数名：mainId，地址：/nkpmv2/SysFolder/AppFrame/AppDataLimit.aspx?para=OArNnespwORU8lSWzkhtuTlk9z8Bc9XxlqgBc0.L6KIz4HSQHhZHaN0PKj2iF_FmstA5ZsKCNofWKwnzHImHwYyj9HUZJInSKsNf9NTdEP5_GzDFmU7XgWybwBLJ0JWXRsBkbAkCm4XIWVVv.9NVdVedTPGPsMVe&hideclose=1 ---> System.Security.Cryptography.CryptographicException: 不正确的数据。
+
+   在 EZ.Base.Security.Decrypt(String strText, String userName) 位置 D:\533\EZStudio_V3\trunk\EZ.Base\Security.cs:行号 192
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.PageBase.GetParaValue(String paraname)
+   在 EZ.WebBase.SysFolder.AppFrame.AppDataLimit.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppDataLimit.aspx.cs:行号 32
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:13:49]|Error|执行分页ExecuteTable时出错:ORA-00918: 未明确定义列
+[09:13:49]|Error|分页SQL[1-15]:select a.*,b.Segment,b.Stage,b.Warehouse from T_PM_PG_ProjectInfo a inner join T_PM_BC_PointConfig b on a.ProNodeCode=b.PCode where ( K_AUTOID IN( select APPID FROM  T_E_Org_DataLimit WHERE  LimitType=1 and ObjType=4 and AppName='Q_PM_PG_ProjectInfo' and ObjID='6c416719-4ad8-48b8-b894-25bdf867e3d1') or  K_USERNAME=N'6c416719-4ad8-48b8-b894-25bdf867e3d1'  or K_CompanyID=N'11e7ccd3-acea-46f2-9922-79d7b8d7441c')  order by K_CreateTime desc   
+[09:13:49]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000396): ORA-00918: 未明确定义列
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:13:49]|Error|执行GetXml.GetList时出错：userName=202037,queryId=Q_PM_PG_ProjectInfo,SQL=select a.*,b.Segment,b.Stage,b.Warehouse from T_PM_PG_ProjectInfo a inner join T_PM_BC_PointConfig b on a.ProNodeCode=b.PCode where ( K_AUTOID IN( select APPID FROM  T_E_Org_DataLimit WHERE  LimitType=1 and ObjType=4 and AppName='Q_PM_PG_ProjectInfo' and ObjID='6c416719-4ad8-48b8-b894-25bdf867e3d1') or  K_USERNAME=N'6c416719-4ad8-48b8-b894-25bdf867e3d1'  or K_CompanyID=N'11e7ccd3-acea-46f2-9922-79d7b8d7441c')  order by K_CreateTime desc  
+[09:13:49]|Error|Chloe.Exceptions.ChloeException: An exception occurred while executing DbCommand. For details please see the inner exception. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-00918: 未明确定义列
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 EZ.Data.DbFactory.ExecuteTable(String cmdText, Int32 first, Int32 last, Int32& total, IDbContext dbContext)
+   在 EZ.Data.GetXml.GetList()
+[09:13:49]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000396): ORA-00918: 未明确定义列
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:15:14]|Error|select * from Q_PM_PG_ProjectInfo where K_AUTOID='e3d03fc3-0e3b-4cea-a79d-b11840d61d4c' 
+[09:15:14]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 Chloe.Core.InternalAdoSession.ExecuteReader(String cmdText, DbParam[] parameters, CommandType cmdType, CommandBehavior behavior)
+[09:15:14]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 EZ.Data.DbFactory.ExecuteRow(String cmdText, IDbContext dbContext)
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.Page_Load(Object sender, EventArgs e) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 157
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+[09:36:00]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 6 行, 第 31 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 6 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:37:05]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 6 行, 第 31 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 6 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:42:14]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 7
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:46:08]|Error|update T_PM_PG_ProjectInfo 
+set Node='基金投委会',
+NodeCode='5013',
+ReviewerState='是', 
+ReviewerCode=(case '是' when '是' then 1 else 0 end)
+where K_AUTOID = '196c225e-24c5-4ada-a1a6-00c9a1fcef45'
+
+[09:46:08]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:46:08]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[09:46:08]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[09:46:55]|Error|update T_PM_PG_ProjectInfo 
+set Node='基金投委会',
+NodeCode='5013',
+ReviewerState='是', 
+ReviewerCode=(case '是' when '是' then 1 else 0 end)
+where K_AUTOID = '196c225e-24c5-4ada-a1a6-00c9a1fcef45'
+
+[09:46:55]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:46:55]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[09:46:55]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[09:47:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 6 行, 第 31 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 6 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:47:56]|Error|update T_PM_PG_ProjectInfo 
+set Node='基金投委会',
+NodeCode='5013',
+ReviewerState='是', 
+ReviewerCode=(case '是' when '是' then 1 else 0 end)
+where K_AUTOID = '196c225e-24c5-4ada-a1a6-00c9a1fcef45'
+
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[09:47:56]|Error|update T_PM_PG_ProjectInfo 
+set Node='基金投委会',
+NodeCode='5013',
+ReviewerState='是', 
+ReviewerCode=(case '是' when '是' then 1 else 0 end)
+where K_AUTOID = '196c225e-24c5-4ada-a1a6-00c9a1fcef45'
+
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[09:47:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000388): ORA-00904: "NODECODE": 标识符无效
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[10:10:02]|Error|AppExport.ListSQL=select * from T_YNCT_P_ApprovalApply where K_IsDel=0 and  1=1   order by K_CreateTime desc
+[11:29:58]|Error|select * from T_ZYLC_P_Inspection_Team	 where K_isDel=0 and 1=2 order by K_RowNo,K_CreateTime 
+[11:29:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 Chloe.Core.InternalAdoSession.ExecuteReader(String cmdText, DbParam[] parameters, CommandType cmdType, CommandBehavior behavior)
+[11:29:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 EZ.Data.DbFactory.ExecuteTable(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 1035
+[11:29:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003AE): ORA-00942: 表或视图不存在
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 1297
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 701
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[11:54:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[11:54:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[11:54:16]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[11:54:16]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[11:55:08]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[11:55:08]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:41:29]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:41:29]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:43:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:43:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:44:29]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:44:29]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:44:45]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:44:45]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:44:54]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:44:54]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:45:18]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:45:18]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:45:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:45:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:50:03]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:50:03]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[14:50:35]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[14:50:35]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:10:34]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:10:34]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:10:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:10:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:10:49]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:10:49]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:10:55]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:10:55]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:11:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:11:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:11:50]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:11:50]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:11:59]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:11:59]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:13:07]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:13:07]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:13:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:13:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:13:35]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:13:35]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:14:02]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:14:02]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:14:57]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:14:57]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:15:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:15:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:15:53]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:15:53]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:25:18]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:25:18]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:25:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:25:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:25:32]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:25:32]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:25:42]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:25:42]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:26:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:26:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:26:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:26:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:28:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:28:58]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:37:24]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:37:24]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:38:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteScalar()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteScalar()
+   在 Chloe.Core.InternalAdoSession.ExecuteScalar(String cmdText, DbParam[] parameters, CommandType cmdType)
+[15:38:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1519
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[15:49:56]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 6 行, 第 31 列: 
+PL/SQL: ORA-00942: 表或视图不存在
+ORA-06550: 第 6 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[16:54:44]|Error|update T_PM_PG_ProjectInfo  
+set SumExitCapital=nvl(select sum(ExitCapital) from T_JJTZ_F_Exit 
+where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0),
+SumExitRatio=nvl(select sum(SumExitRatio) from T_JJTZ_F_Exit where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0)
+[16:54:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[16:54:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[16:54:44]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[16:54:53]|Error|update T_PM_PG_ProjectInfo  
+set SumExitCapital=nvl(select sum(ExitCapital) from T_JJTZ_F_Exit 
+where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0),
+SumExitRatio=nvl(select sum(SumExitRatio) from T_JJTZ_F_Exit where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0)
+[16:54:53]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[16:54:53]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[16:54:53]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[16:56:13]|Error|update T_PM_PG_ProjectInfo  
+set SumExitCapital=nvl(select sum(ExitCapital) from T_JJTZ_F_Exit 
+where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0),
+SumExitRatio=nvl(select sum(ExitRatio) from T_JJTZ_F_Exit where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb'  and k_isdel=0,0)
+[16:56:13]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[16:56:13]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[16:56:13]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[16:58:12]|Error|update T_PM_PG_ProjectInfo  
+set SumExitCapital=nvl(select sum(ExitCapital) from T_JJTZ_F_Exit 
+where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb',0),
+SumExitRatio=nvl(select sum(ExitRatio) from T_JJTZ_F_Exit where CorrelationCode= 'ed59c7ff-f91a-42c9-95d4-3b951cbcfebb',0)
+[16:58:12]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[16:58:12]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[16:58:12]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670

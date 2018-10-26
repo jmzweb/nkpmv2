@@ -1,0 +1,107 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+html
+{
+	height:100%;
+	overflow:auto;
+}
+body{
+    font-weight:normal;
+    font-style:normal;
+    font-family:宋体,Tahoma,Helvetica,Arial,sans-serif;
+    font-size:14px;
+    background-color:white;
+    height:100%;
+	text-align: center; 
+	overflow:visible;
+}
+table.printtbl
+{
+    table-layout:fixed;
+	border-collapse: collapse;
+    margin-left:auto;
+	margin-right:auto;
+	font-size: 14px;
+	width:96%;
+}
+.printtbl caption{line-height:2px;font-size:20px;line-height:2;
+                  font-family:"黑体","Microsoft YaHei UI"}
+
+.printtbl td{
+	text-align:left;
+	font-size: 14px;
+	padding:1px 1px 1px 3px;
+	border:1px #444 solid;
+	height:30px;
+}
+.printtbl td.noborder{border-width:0px;}
+
+table.subtbl
+{
+    table-layout:fixed;
+	border-collapse: collapse;
+    margin-left:auto;
+	margin-right:auto;
+	font-size: 14px;
+	width:96%;
+}
+.subtbl td {
+	text-align:left;
+	border:1px #444 solid;
+	padding:1px 1px 1px 3px;
+	height:25px;
+	font-size: 14px;
+}
+
+.gray{color:Gray}
+.red{color:red}
+.green{color:green}
+    
+/*大表格样式*/
+table.normaltbl,table.redtbl,table.subtbl
+{
+    table-layout:fixed;
+	border-collapse: collapse;
+    margin-left:auto;
+	margin-right:auto;
+	font-size: 12px;
+	line-height:20px;
+}
+
+table.normaltbl
+{
+	border:#808080 1px solid;
+	color:#393939;
+	width:96%;
+}
+.normaltbl caption
+{
+	font-weight:bold;
+	font-size: 14pt;
+	font-family: 黑体,宋体;
+	color:#555;
+    height:40px;
+	line-height:40px;
+	
+}
+
+.normaltbl > tr > td , .normaltbl > tbody > tr > td , .subtbl > tbody > tr > td, .subtbl > thead > tr > td
+{
+	text-align:left;
+	padding:1px 1px 1px 3px;
+	border:1px #808080 solid;
+}
+
+table.subtbl
+{
+    border:#808080 1px solid;
+    color:#393939;
+}
+.subtbl > tbody > tr > td {
+	border:1px #808080 solid;
+	padding:1px;
+	height:25px;
+}
+

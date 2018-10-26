@@ -1,0 +1,14 @@
+﻿body { background: #FFF; } 
+.ctable { width: 100%; border-collapse: collapse; border-spacing: 0; empty-cells: show; margin: 0 auto; }
+.ctable tr td { border: solid 1px #000; padding: 0px 7px; line-height: 34px; }
+.ctable thead tr { font-weight: bold; }
+.ctable thead tr td { background: #dce6f2; font-size: 14px; font-weight: normal; text-align: center; }
+.tdcen { text-align: center; }
+.fr { float: right; margin-bottom: 10px; }
+.fl { float: left; }
+h2 { text-align: center;margin:0; }
+.fontbold td { font-weight: bold; }
+.ratio,
+.comdify { text-align: right; }
+.clear10 { clear:both;height:10px;}
+.ctable tr td a { color:blue;cursor:pointer;}

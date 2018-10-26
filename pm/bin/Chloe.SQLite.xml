@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chloe.SQLite</name>
+    </assembly>
+    <members>
+        <member name="M:Chloe.SQLite.DbExpressionHelper.OptimizeDbExpression(Chloe.DbExpressions.DbExpression)">
+            <summary>
+            尝试将 exp 转换成 DbParameterExpression。
+            </summary>
+            <param name="exp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Chloe.SQLite.SQLiteContext.#ctor(Chloe.Infrastructure.IDbConnectionFactory,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="dbConnectionFactory"></param>
+            <param name="concurrencyMode">是否支持读写并发安全</param>
+        </member>
+    </members>
+</doc>

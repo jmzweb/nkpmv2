@@ -1,0 +1,80 @@
+﻿body{
+    font-weight:normal;
+    font-style:normal;
+    font-family:Tahoma,Helvetica,Arial,sans-serif;
+    font-size:12px;
+    background-color:#eeeeee;
+    height:100%;
+    background:white url(../img/password/wrapper_bg.jpg) repeat-x;
+    text-align:center;
+}
+button,input[type=button],input[type=submit]
+{
+	font:normal 10pt/20px 宋体;
+    padding:3px 10px 3px 10px;
+	margin:1px 0px 1px 0px;
+	width: auto;
+    border:#87a3c1 1px solid;
+    color:#333;
+    background:url(../img/btn01.gif) 0px 0px;
+    overflow:visible;
+    cursor:pointer;
+}
+.notice-wrap {
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	width: 200px;
+	z-index: 9999;
+	
+}
+* html .notice-wrap {
+	position: absolute;		
+}
+.notice-item {
+	height: 50px;
+	color: #eee;
+	padding: 6px 6px 0px 50px;
+	font-family:Arial lucida Grande;
+	font-size: 12px;
+	border: 2px solid #999;
+	display: block;
+	position: relative;
+	margin: 0px 0px 12px 0px;
+}
+.notice-wrap .success{
+    background: #000 url(../img/common/success.png) no-repeat 5% 50%;
+}
+.notice-wrap .error{
+    background: #000 url(../img/common/error.png) no-repeat 5% 50%;
+}
+.notice-wrap .notice{
+	background: #000 url(../img/common/success.png) no-repeat 5% 50%;    
+}
+.notice-item p{
+	font-size: 16px;
+	margin-top:18px;
+	font-weight:600;
+}
+.notice-item-close {
+	position: absolute;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	right: 6px;
+	top: 6px;
+	cursor: pointer;
+}
+
+.tip{
+    overflow:auto;
+	overflow-x:hidden;
+	margin-left:auto;
+	margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:dotted 1px orange;
+    background:#F9FB91;
+    text-align:left;
+    padding:5px;
+}

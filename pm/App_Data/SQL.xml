@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <EZ.Common>
+    <Tools>
+      <SQL id="EZ.Common.Tools.GetAutoSn_1">
+        <SQLServer>
+          <![CDATA[
+            select max({fldName}) from {tblName} where {fldName} like '{autoHead}%{autoEnd}' and len({fldName})={autoLen}
+          ]]>
+        </SQLServer>
+        <Oracle>
+          <![CDATA[
+           select max({fldName}) from {tblName} where {fldName} like '{autoHead}%{autoEnd}' and length({fldName})={autoLen}
+          ]]>
+        </Oracle>
+        <MySQL>
+          <![CDATA[
+          select max({fldName}) from {tblName} where {fldName} like '{autoHead}%{autoEnd}' and length({fldName})={autoLen}
+          ]]>
+        </MySQL>
+        <SQLite>
+          <![CDATA[
+        
+          ]]>
+        </SQLite>
+      </SQL>
+      <SQL id="EZ.Common.Tools.GetAutoSn_2">
+        <SQLServer>
+          <![CDATA[
+            select max(cast(substring({fldName},{headLen}+1,1000) as int)) from {tblName} where {fldName} like '{autoHead}%{autoEnd}' and len({fldName})>{headLen}
+          ]]>
+        </SQLServer>
+        <Oracle>
+          <![CDATA[
+            select max(cast(substr({fldName},{headLen}+1,1000) as int)) from {tblName} where {fldName} like '{autoHead}%{autoEnd}' and length({fldName})>{headLen}
+          ]]>
+        </Oracle>
+        <MySQL>
+          <![CDATA[
+        
+          ]]>
+        </MySQL>
+        <SQLite>
+          <![CDATA[
+        
+          ]]>
+        </SQLite>
+      </SQL>
+      <SQL id="EZ.Common.Tools.GetAutoSn_3">
+        <SQLServer>
+          <![CDATA[
+          select isNull(max({fldName}),0) from {tblName}
+          ]]>
+        </SQLServer>
+        <Oracle>
+          <![CDATA[
+          select nvl(max({fldName}),0) from {tblName}
+          ]]>
+        </Oracle>
+        <MySQL>
+          <![CDATA[
+        
+          ]]>
+        </MySQL>
+        <SQLite>
+          <![CDATA[
+        
+          ]]>
+        </SQLite>
+      </SQL>
+    </Tools>
+  </EZ.Common>
+</root>

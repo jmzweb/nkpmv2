@@ -1,0 +1,86 @@
+﻿* { margin: 0; padding: 0; border: 0; list-style: none; }
+a { text-decoration: none; color: #ffffff; }
+a:hover { color: #33bde1; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { background: url(../img/skybg.jpg) /*#26546a*/; color: #ffffff; font-size: 16px;font-family:"微软雅黑","Microsoft YaHei"; }
+
+.pmlogo { margin: 10px; float: left; font-size: 26px; }
+.fixright { position: fixed; right: 10px; top: 10px; }
+.fixright a { margin-left: 20px; }
+.clear { clear: both; }
+.ctable { width: 100%; line-height: 40px; }
+.ctable thead td { font-weight: bold; border-bottom: solid 1px #ffffff; }
+.more { position: absolute; right: 5px; top: 0px; z-index: 20; }
+
+.brb { border-radius:0 0 10px 10px;}
+.brt { border-radius:10px 10px 0 0;}
+.lcbox { border: solid 1px #4c90cd; background: rgba(5,27,48,0.9); }
+.mb30 { margin-bottom: 10px; }
+dl { position: relative; clear: both; }
+dl dt { position: absolute; top: -30px; left: 20%; font-size: 26px; line-height: 40px; width: 60%; text-align: center; }
+dl dt.lcbox { background: rgba(5,27,50,0.3); }
+dl dd { padding: 18px 15px 18px; overflow: hidden; }
+
+/*小三角*/
+.iconfontsj.iconfont { position: absolute; color: #00ffe4; font-size: 30px; }
+.lefttopi { top: -18px; left: -12px; transform: rotate(45deg); }
+.righttopi { top: -16px; right: -14px; transform: rotate(135deg); }
+.leftbottomi { bottom: -16px; left: -14px; transform: rotate(-45deg); }
+.rightbottomi { bottom: -18px; right: -12px; transform: rotate(-135deg); }
+
+.titlelcbox { border: solid 2px #4c90cd; background: rgba(5,27,48,1); height: 40px; }
+.titlelcbox b { position: relative; height: 44px; background: rgba(5,27,48,1); width: 90%; display: block; top: -2px;margin:0 auto; } 
+/*主地图*/
+.mainlcbox {  position: relative;  }
+.mainechartbox { position: absolute; top: 90px; left: 50%; text-align: center; border: solid 1px #4c90cd;background: rgba(5,27,48,0.5);}
+.mainechartboxzq { position: absolute; top: 90px; left: 15px; text-align: center; border: solid 1px #4c90cd;background: rgba(5,27,48,0.5);}
+.maintitle {  line-height: 60px;height: 60px;font-size: 36px; font-weight: normal;width:430px;margin:15px auto; text-align:center;}
+.maintitle b { height:64px;}
+
+.changemap { position:absolute;top:5px;left:5px;}
+.changemap a {  background:#b2dad9;padding:0 5px;margin-right:5px;}
+.changemap a:hover,
+.changemap a.hover {background:#2098b3;color:#fff; }
+.leftbox { position: absolute; top: 90px; left: 15px; }
+.rightbox { position: absolute; top: 90px; right: 15px; }
+.bottombox { position: absolute; bottom: 15px; left: 15px; right: 15px; height: 140px; }
+.bottombox .showother{ position: absolute; top: 25px; right: 15px; z-index:100;}
+.bottombox .showother a { width:100px;float:left;text-align:center;font-size:14px;}
+.bottombox .showother a .iconfont { display:block;font-size:50px;}
+
+.mkshow { line-height: 50px; text-align: center; margin-bottom: 10px; }
+.mkshow span { }
+.mkshow b { font-size: 26px; margin: 0 10px; color: #f15a22/*f15a22 1790cf a2d4e6*/; }
+
+.jjshow { line-height: 32px; text-align: center; }
+.jjshow li { width: 33.3333%; float: left; }
+.jjshow b { font-size: 26px; color: #f15a22; }
+
+.xmshow { line-height: 32px; text-align: center; }
+.xmshow li { width: 25%; float: left; }
+.xmshow b { font-size: 26px; color: #f15a22; }
+
+.fxinfo dd { height: 100px; }
+.fxshow { line-height: 26px; text-align: center; float: left; }
+.fxshow li { width: 33.3333%; margin-bottom: 5px; float: left; }
+.fxshow b { font-size: 26px; color: #f15a22; }
+
+.fxlist { float: left; }
+.fxlist li {line-height: 37px; height: 37px; overflow: hidden;transition: all 0.4s;padding:0 3px; }
+
+
+.star损失 { color: #f00; animation: 0.5s alternate infinite shanshan; }
+.star可疑 { color: #f60; animation: 0.5s alternate infinite shanshan; }
+.star次级 { color: #ff0; animation: 0.5s alternate infinite shanshan; }
+.star关注 { color: #00f; animation: 0.5s alternate infinite shanshan; }
+.star正常, .star { color: #0f0; }
+
+
+@keyframes shanshan {
+	0% { /*text-shadow: 0 0 1px #ffffff;*/ }
+	100% {  }
+}
+
+/*进度条*/
+.ratiobox { width: 200px; border-radius: 20px; height: 18px; line-height: 18px; }
+.ratiovalue { float: left; height: 100%; background: #fff; border-radius: 20px; color: #f15a22; text-align: right; font-size: 14px; font-weight: bold; }

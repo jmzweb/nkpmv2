@@ -1,0 +1,53 @@
+html {overflow:-moz-scrollbars-vertical;overflow-y:scroll;}
+body{
+    font-weight:normal;
+    font-style:normal;
+    font-family:Tahoma,Helvetica,Arial,sans-serif,Verdana,'ËÎÌå';
+    font-size:12px;
+    line-height:22px;
+    height:100%;
+	width:100%;
+	overflow:hidden;
+	background:white url(../img/common/body_bg.gif) repeat-x left top;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre, 
+form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;} 
+table {border-collapse: collapse;border-spacing:0;} 
+fieldset,img {border: 0; } 
+ol,ul {list-style: none;padding-left:20px;margin:5px 0px;}
+caption,th {text-align: left;} 
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;} 
+q:before,q:after {content:¡±; } 
+abbr,acronym {border:0;}
+.clear {clear:both;}
+
+.h_text { width:164px; height:17px; border:1px #ddd solid; vertical-align:middle; padding:2px; margin-left:5px;}
+.h_submit { width:80px; height:25px; background:url(../img/common/bg.gif) 0 -94px no-repeat; border:0; vertical-align:middle; margin-left:5px; cursor:pointer;}
+
+
+.cbox { width:878px; margin:0 auto; padding:0 10px; padding-bottom:15px; color:#333; border:0px #FFBE7E solid;}
+.cbox table{width:100%;}
+.cbox a { color:#135491; text-decoration:none;}
+.cbox a:hover { color:#f30;}
+.cposition { background:url(../img/common/picon.gif) 0 18px no-repeat; padding:10px 0 10px 15px; border-bottom:1px #ddd solid;} 
+.ctitle { font-size:16px; font-weight:bold; text-align:center; margin-top:20px; border-bottom:1px solid #ccc;padding:0px 0px 5px 0px;}
+.ctitle span { display:block; color:#999; font-size:12px; font-weight:normal;margin-top:15px;}
+.ccontent { border-left:0px #eee solid; border-right:0px #eee solid;border-bottom:0px #eee solid; padding:20px;font-size:16px;}
+.ccontent p {padding:5px 0;line-height:180%;}
+.ccomment { margin-top:20px;border:1px #B3DCEE solid;}
+.ccomment h3 { border-bottom:1px #B3DCEE solid; background:#D8ECFA; height:28px; line-height:28px; padding-left:10px; font-weight:bold;}
+.ccontent img{border:2px solid #eee;}
+.c_list { margin:10px; border-bottom:1px #ddd dashed;}
+.c_list .c_writer { float:left; color:#999;}
+.c_list .c_time { float:right;color:#999;}
+.c_list p { clear:both; padding:5px 0px;}
+.cwrite { background:#F4F7FA; margin:10px; padding:10px 15px; border:1px #E8E8E8 solid;}
+.cwrite h4 { font-size:14px; font-weight:bold; color:#333; margin-bottom:5px;}
+.cwrite textarea { width:816px; height:98px; border:1px #B7CAD1 solid; padding:2px;}
+.cwrite_btns { margin:20px 0 10px 0;}
+.cwrite_btns input { vertical-align:middle;}
+.cwrite_btns .h_submit {margin-right:20px;}
+.red{color:red;}
+.green{color:green;}
+
+TABLE.ke-zeroborder TD{padding:3px;border:1px solid black;font:14px/1.5 "sans serif",tahoma,verdana,helvetica;}

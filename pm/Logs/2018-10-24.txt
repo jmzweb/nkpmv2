@@ -1,0 +1,426 @@
+[19:40:40]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:06]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:16]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:18]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:22]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:24]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelBuilder.cs:行号 698
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:42:58]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[19:43:28]|Error|System.MissingMethodException: 找不到方法:“EZ.Entities.Workflow.Define EZ.Data.Workflow.DefineService.GetWorkflowDefineModelById(System.String)”。
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, Int32 mainOdr, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.Engine.ModelBuilder.GetTblHtml(String tblName, String strWhere, List`1 bizModels, XmlDocument xmlDoc)
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.getTblHtml() 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 334
+[20:37:28]|Error|insert into T_PM_P_Events (k_autoid,CorrelationCode,Node,NodeCode,StartTime,NodeState,ReviewerState,TblName,CorMainid,ReviewerCode)
+values
+(SYS_GUID(),'be5f384e-35fc-45a4-80d0-b1a9332d5f90','增值服务','1025',TO_DATE('{StartTime}','YYYY-MM-DD HH24:MI:SS'),'完成','已完成','T_YNCT_P_AddedService','916e8ef9-53db-4a56-a19c-1a7aee3515e2',1)
+
+[20:37:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:37:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[20:37:28]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:42:26]|Error|insert into T_PM_P_Events (k_autoid,CorrelationCode,Node,NodeCode,StartTime,NodeState,ReviewerState,TblName,CorMainid,ReviewerCode)
+values
+(SYS_GUID(),'be5f384e-35fc-45a4-80d0-b1a9332d5f90','增值服务','1025',TO_DATE('{StartTime}','YYYY-MM-DD HH24:MI:SS'),'完成','已完成','T_YNCT_P_AddedService','5bd9e6bb-b19f-4d1f-a78a-52c23f7aec66',1)
+
+[20:42:26]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:42:26]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[20:42:26]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:43:36]|Error|insert into T_PM_P_Events (k_autoid,CorrelationCode,Node,NodeCode,StartTime,NodeState,ReviewerState,TblName,CorMainid,ReviewerCode)
+values
+(SYS_GUID(),'be5f384e-35fc-45a4-80d0-b1a9332d5f90','增值服务','1025',TO_DATE('{StartTime}','YYYY-MM-DD HH24:MI:SS'),'完成','已完成','T_YNCT_P_AddedService','5bd9e6bb-b19f-4d1f-a78a-52c23f7aec66',1)
+
+[20:43:36]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:43:36]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[20:43:36]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000731): ORA-01841: (完整) 年份值必须介于 -4713 和 +9999 之间, 且不为 0
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:47:23]|Error|//有bug，提示
+declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='';
+if  CS = '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='' ) 
+where FundCode='';
+end if;
+end;
+[20:47:23]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:47:23]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[20:47:23]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:48:11]|Error|//有bug，提示
+declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='';
+if  CS == '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='' ) 
+where FundCode='';
+end if;
+end;
+[20:48:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:48:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[20:48:11]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00000384): ORA-00900: 无效 SQL 语句
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:48:38]|Error|declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='';
+if  CS == '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='' ) 
+where FundCode='';
+end if;
+end;
+[20:48:38]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:48:38]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[20:48:38]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[20:54:52]|Error|declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='';
+if  CS == '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='' ) 
+where FundCode='';
+end if;
+end;
+[20:54:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[20:54:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[20:54:52]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:00:27]|Error|declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='{FundCode}';
+if  CS == '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='{FundCode}' ) 
+where FundCode='{FundCode}';
+end if;
+end;
+[21:00:27]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:00:27]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[21:00:27]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 5 行, 第 9 列: 
+PLS-00103: 出现符号 "="在需要下列之一时：
+ ( - + all case
+   mod new null <an identifier>
+   <a double-quoted delimited-identifier> <a bind variable>
+   continue any avg count current max min prior some sql stddev
+   sum variance execute forall merge time timestamp interval
+   date <a string literal with character set specification>
+   <a number> <a single-quoted SQL string> pipe
+   <一个带有字符集说明的可带引号的字符串文字>
+   <一个可带引号的 SQL 字符串> purge
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:01:31]|Error|AppExport.ListSQL=select * from T_PM_C_CorpInfo where K_IsDel=0 and Tag=11  order by K_CreateTime desc
+[21:01:41]|Error|declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='{FundCode}';
+if  CS = '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='{FundCode}' ) 
+where FundCode='{FundCode}';
+end if;
+end;
+[21:01:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:01:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[21:01:41]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:02:09]|Error|declare
+CS varchar2(50);
+begin
+select CapitalSource into CS from T_PM_PG_ProjectInfo where FundCode='{FundCode}';
+if  CS = '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode='{FundCode}' ) 
+where FundCode='{FundCode}';
+end if;
+end;
+[21:02:09]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:02:09]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[21:02:09]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x0000057B): ORA-01403: 未找到任何数据
+ORA-06512: 在 line 4
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:06:03]|Error|declare
+CS varchar2(50);FundCode varchar2(100);
+begin
+select CapitalSource into CS,FundCode into FundCode from T_PM_PG_ProjectInfo where ProCode='100250201800001';
+if  CS = '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode=FundCode  ) 
+where FundCode=FundCode;
+end if;
+end;
+[21:06:03]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:06:03]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[21:06:03]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:06:30]|Error|declare
+CS varchar2(50);FundCode varchar2(100);
+begin
+select CapitalSource into CS,FundCode into FundCode from T_PM_PG_ProjectInfo where ProCode='100250201800001';
+if  CS = '基金' then
+update  T_PM_F_Fund 
+set OutInvestM=(select sum(InvestCapital) from T_PM_PG_ProjectInfo where FundCode=FundCode  ) 
+where FundCode=FundCode;
+end if;
+end;
+[21:06:30]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:06:30]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1920
+[21:06:30]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x00001996): ORA-06550: 第 4 行, 第 39 列: 
+PL/SQL: ORA-00923: 未找到要求的 FROM 关键字
+ORA-06550: 第 4 行, 第 1 列: 
+PL/SQL: SQL Statement ignored
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 2003
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670
+[21:10:06]|Error|AppExport.ListSQL=select * from T_PM_C_CorpInfo where K_IsDel=0 and Tag=11  order by K_CreateTime desc
+[21:54:15]|Error|update T_JJTZ_F_PartnershipA_Team  
+set PaymentA=nvl(select sum(PaymentAmount) from T_JJTZ_F_CapitalDetail where CorrelationCode= '11c2f502-49eb-51a1-fbac-aa3f44fbd103' and Drawee='广发证券资产管理（广东）有限公司',0),
+UnpaidA=(RegisterM-nvl(select sum(PaymentAmount) from T_JJTZ_F_CapitalDetail 
+where CorrelationCode= '11c2f502-49eb-51a1-fbac-aa3f44fbd103' and Drawee='广发证券资产管理（广东）有限公司',0)),
+PaymentRound='1'
+[21:54:15]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteNonQuery(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, Int32 longFetchSize, Int32 lobPrefetchSize, OracleDependencyImpl orclDependencyImpl, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 Chloe.Oracle.ChloeOracleCommand.ExecuteNonQuery()
+   在 Chloe.Core.InternalAdoSession.ExecuteNonQuery(String cmdText, DbParam[] parameters, CommandType cmdType)
+[21:54:15]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Data.DbFactory.ExecuteNonQuery(String cmdText, IDbContext dbContext)
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1442
+[21:54:15]|Error|Oracle.ManagedDataAccess.Client.OracleException (0x000003A8): ORA-00936: 缺失表达式
+   在 EZ.Engine.ModelSave.SaveData(String tblName, String xmldata) 位置 D:\533\EZCore_V3\trunk\EZ.Engine\ModelSave.cs:行号 1524
+   在 EZ.WebBase.SysFolder.AppFrame.AppInput.saveData(String tblNameList, String xmldata) 位置 D:\533\EZStudio_V3\trunk\EZ.WebBase\SysFolder\AppFrame\AppInput.aspx.cs:行号 670

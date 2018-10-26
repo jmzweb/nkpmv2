@@ -1,0 +1,106 @@
+﻿* { margin: 0; padding: 0; border: 0; list-style: none; }
+body { background: rgb(232, 237, 246); }
+a { color: #333; text-decoration: none; cursor: pointer; }
+.clearline { clear: both; width: 100%; height: 200px; }
+.clearline已投 { height: 240px; }
+.clearbar { clear: both; width: 100%; height: 50px; }
+.atz { position: absolute; left: 5px; font-size: 12px; margin-top: -3px; }
+.clear { clear: both; }
+.clearth { clear: both;height:30px;background:#fff; }
+/*工具栏*/
+.protoobar { position: fixed; top: 0; left: 0; right: 0; background: #fff; z-index: 300; height: 42px; padding-left: 10px; }
+.addpro { height: 42px; line-height: 42px; padding: 0 10px;position: absolute; right: 0px;  text-align: center; background: #4f5f6f; color: #fff; }
+.addpro:hover { background: #32bce1; }
+.searchinput { border: solid 1px #4f5f6f; height: 40px; line-height: 40px; width: 200px; position: absolute; right: 110px; top: 0px; }
+.searchinput input { width: 100%; height: 39px; text-indent: 10px; }
+.searchinput .searchbtn { position: absolute; right: 0; top: 0px; width: 50px; height: 100%; background: #4f5f6f; color: #fff; text-align: center; }
+.searchinput .searchbtn:hover { background: #32bce1; }
+.searchitem { float: left; margin: 0px 30px 0 0; line-height: 40px; }
+.searchitem font { font-size: 14px; color: #666; }
+.searchitem .values { display: none; position: absolute; width: 150px; background: #fff; padding: 5px;max-height:360px;overflow:auto; }
+.searchitem a { width: 100%; height: 40px; overflow: hidden; display: block; text-indent: 5px; }
+.searchitem a b { font-size: 12px; font-weight: normal; }
+.searchitem a:hover,
+.searchitem a.select { background: #4f5f6f; color: #fff; }
+
+/*项目列表*/
+.prolist { padding: 15px; clear: both; }
+.proitem { width: 120px; float: left; margin: 15px; }
+.proitem .proname { display: block; width: 120px; height: 120px; padding: 0px; border-radius: 10px; overflow: hidden; position: relative; text-align: center; }
+.proitem .proname .fdir { display: block; font-size: 45px; color: #32bce1; }
+.proitem .proname .imgdir { height:50px;margin-top:3px; }
+.proitem .proname .star { position: absolute; top: 0px; left: 22px; }
+.proitem .proname span { position: absolute; bottom: 3px; right: 5px; font-size: 11px; display: none; }
+.proitem .proname p {line-height:20px; }
+.proitem .proname.ssfocus { background: #f00; box-shadow: 0 0 5px #f00; color: #fff; }
+.proitem .proname:hover,
+.proitem .proname.select { background: #32bce1; box-shadow: 0 0 5px #32bce1; color: #fff; }
+.proitem .proname.ssfocus .fdir { color: #fff; }
+.proitem .proname:hover .fdir,
+.proitem .proname.select .fdir { color: #fff; }
+
+/*项目详情按钮*/
+.protop { margin-top: 5px; border-top: solid 3px #32bce1;height:70px; }
+.probtns { background: #fff; line-height: 40px; overflow: hidden; }
+.probtns a { float: left; margin-left: 10px; padding: 0 5px; font-size: 16px; }
+.probtns a:hover { background: #32bce1; color: #fff; }
+.probtns b { margin-left: 10px; float: left; }
+
+/*投后的特殊处理*/
+.tqsjjl { position:absolute;top:78px;width:132px;height:105px;line-height:105px;}
+.thlineul { margin-left:132px;height:105px;overflow:hidden;background:#fff;}
+
+/*项目轴*/
+.linepoint { position: absolute; left: 0px; right: 0px; display: none; }
+.linepoint .imgsj { position: absolute; top: -20px; color: #32bce1; font-size: 30px; }
+.linepoint li { position: relative; height: 105px; float: left; text-align: center; background: #fff; }
+.linepoint li .iconfont { width: 30px; height: 20px; position: absolute; top: 50%; left: 50%; color: #c9c9c9; margin: -10px 0 0 -15px; z-index: 7; background: #fff; }
+.linepoint li span { font-size: 12px; position: absolute; left: 0px; top: 20px; width: 100%; color: #c9c9c9; }
+.linepoint li a { display: block; position: absolute; left: 0px; top: 20px; padding-top: 45px; color: #c9c9c9; z-index: 10; width: 100%; font-size: 16px; overflow: hidden; }
+.linepoint li a:hover { color: #32bce1; }
+.linepoint li p { height: 3px; background: #c9c9c9; position: absolute; top: 50%; margin-top: -1.5px; }
+.linepoint li .plinel { width: 100%; left: -50%; }
+.linepoint li:last-child .pliner { width: 50%; right: 0; }
+
+.linepoint li.select通过 .iconfont,
+.linepoint li.select通过 a,
+.linepoint li.select通过 span { color: #398723; }
+.linepoint li.select通过 .plinel,
+.linepoint li.select通过 .pliner { background: #398723; }
+.linepoint li.select暂缓 .iconfont,
+.linepoint li.select暂缓 a,
+.linepoint li.select暂缓 span { color: #ba9439; }
+.linepoint li.select暂缓 .plinel,
+.linepoint li.select暂缓 .pliner { background: #ba9439; }
+.linepoint li.select终止 .iconfont,
+.linepoint li.select终止 a,
+.linepoint li.select终止 span { color: #c2283b; }
+.linepoint li.select终止 .plinel,
+.linepoint li.select终止 .pliner { background: #c2283b; }
+.linepoint li.select跳过 .iconfont,
+.linepoint li.select跳过 a,
+.linepoint li.select跳过 span { color: #55ac3c; }
+.linepoint li.select跳过 .plinel,
+.linepoint li.select跳过 .pliner { background: #55ac3c; }
+
+.linepoint li.select通过 a:hover,
+.linepoint li.select暂缓 a:hover,
+.linepoint li.select终止 a:hover,
+.linepoint li.select跳过 a:hover { color: #000; }
+
+.star损失 { color: #f00; animation: 0.5s alternate infinite shanshan; }
+.star可疑 { color: #f60; animation: 0.5s alternate infinite shanshan; }
+.star次级 { color: #ff0; animation: 0.5s alternate infinite shanshan; }
+.star关注 { color: #00f; animation: 0.5s alternate infinite shanshan; }
+.star正常 { color: #0f0; display: none; }
+
+
+@keyframes shanshan {
+	0% { text-shadow: 0 0 1px #FFFFFF; }
+	100% { text-shadow: 0 0 10px #FFFFFF; }
+}
+
+
+@media only screen and (max-width:1600px) {
+	.probtns a { margin-left: 5px; padding: 0 3px; font-size: 14px; }
+}

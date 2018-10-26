@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body{
+    margin:0px;padding:0px;
+    background:white url(../img/password/wrapper_bg.jpg) repeat-x;
+}
+
+.uploadify-button{
+	display:inline-block;
+	margin:12px;
+	border:1px solid #808080;
+	background-color: #707070;
+	line-height:24px;
+	border-radius:12px;
+	padding:0 18px;
+    font-size:12px;
+    font-weight: 600;
+    font-family: '微软雅黑';
+	color:#FFF;
+	cursor:pointer;
+	text-decoration:none;
+}
+.uploadify-button:hover{
+	background-color: #888;
+}
+.uploadfile{
+	width:0;
+	}
+.uploadify-queue .uploadify-queue-item{
+	list-style-type:none;
+	margin-top:6px;
+	margin-left:10px;
+	}
+.uploadbtn,.delfilebtn{
+	display:inline-block;
+	border:1px solid #999;
+	line-height:24px;
+	border-radius:4px;
+	margin-right:5px;
+	padding:0 18px;
+    font-size:12px;
+	color:#666;
+	cursor:pointer;
+	background:url(images/btnbg.png) repeat-x 0 0;
+	text-decoration:none;
+	}
+.up_filename,.progressnum,.delfilebtn,.uploadbtn{
+	font-size:12px;
+	color:#666;
+	}
+.up_percent{
+	font-size:12px;
+	color:blue;
+	}
+.uploadify-progress{
+	 display:inline-block; 
+	 width:500px; 
+	 height:10px; 
+	 background-color:white;
+	 border:1px groove #666;
+	 vertical-align:middle;
+	 padding:0;
+	 overflow: hidden;
+	 }
+.uploadify-progress-bar{
+	width:0;
+	height:100%;
+	background-color: #0099FF;
+	}

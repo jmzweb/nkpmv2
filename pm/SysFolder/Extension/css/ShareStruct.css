@@ -1,0 +1,58 @@
+﻿body{background:#dce6f2;} 
+/*流程设计*/ 
+.wfeditor{}  
+.wfsave-title{font-size:16px;font-weight:bold;display:block;text-align:right;margin:3px 0;}
+/*流程项*/
+.wflaydiv{box-shadow:1px 1px 3px #ccc;z-index:500;position:absolute;border-radius:2px;cursor:crosshair;text-align:center;color:#000;
+-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;} 
+.wflaydiv a{ color:#000;} 
+.wflaydiv p{display:block;margin:8px 5px;font-size:18px;line-height:24px;}
+.wflaydiv span{cursor:default;}
+.wflaydiv i{font-size:16px;line-height:16px;cursor:move;position:absolute;left:2px;top:0px;display:none;}
+.wflaydiv.hover i,
+.wflaydiv.select i,
+.wflaydiv:hover i{display:block; }
+.wfaddrules{margin:5px 3px;display:block;} 
+.wfdeleteline { text-decoration:underline;}
+
+.wflaydiv.jt { width:160px;height:60px;background:#2098b3;}/*集团*/
+.wflaydiv.jt p{ line-height:22px;} 
+.wflaydiv.gs2 { width:100px;height:40px;background:#32a5bf;}/*二级公司*/
+.wflaydiv.gs3 { width:100px;height:40px;background:#2ac4c8;}/*三级公司*/
+.wflaydiv.gs3 p{ font-size:14px;} 
+.wflaydiv.cg { width:80px;height:40px;background:#b2dad9;border-radius:20px;}/*三级公司*/
+.wflaydiv.cg p{font-size:14px;} 
+.wflaydiv.jj { width:60px;height:60px;background:#f15a22;border-radius:50%;}/*基金*/
+.wflaydiv.jj p{ margin:14px 6px;font-size:12px;line-height:16px;} 
+
+.wflaydiv.readonly { cursor:default;}
+.wflaydiv.hover,
+.wflaydiv.select{background:#f79646;color:#fff;}
+.wflaydiv.select a{color:#fff;}
+ 
+/*共用工具箱*/
+.handle{display:block;}
+.fasttoolbox{box-shadow:0 1px 5px #ddd;background:#FFF;position:fixed;padding:5px;z-index:1000;width:150px;top:5px;left:5px;bottom:5px;overflow:auto;}
+.ssdiv { display:block;clear:both;padding:3px 10px;line-height:30px;}
+.fasttoolbox1{left:auto;right:5px;width:280px;display:none;} 
+.fasttoolboxleft1{width:100px;bottom:auto;}  
+.fasttoolboxright1{left:auto;right:5px;width:310px;display:none;}  
+/*控件箱
+.controls{clear:both;}
+.controls a{padding:5px;margin-bottom:5px;display:block;font-size:12px;border:solid 1px #eee;text-align:right;}
+.controls a i{font-size:16px;float:left;cursor:move;} */
+/*箭头*/
+.arrows{position:absolute;top:0px;left:0px;}
+
+/*按钮*/
+.wfshowctrl { position:fixed;bottom:0px;left:0px;z-index:505;background:#dce6f2;padding:10px;}
+.wfshowctrl span ,
+.wfshowctrl b { padding:0 5px;}
+.wfshowctrl .jt {  background:#2098b3;}/*集团*/ 
+.wfshowctrl .gs2 {  background:#32a5bf;}/*二级公司*/
+.wfshowctrl .gs3 { background:#2ac4c8;}/*三级公司*/
+.wfshowctrl .cg { background:#b2dad9;}/*三级公司*/
+.wfshowctrl .jj { background:#f15a22; }/*基金*/
+.wfshowctrl .gq { color:#000000; }/*股权*/
+.wfshowctrl .st { color:#f15a22; }/*受托人*/
+.wfshowctrl .gp { color:#0687a4; }/*gp*/

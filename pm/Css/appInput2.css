@@ -1,0 +1,137 @@
+﻿* { margin: 0; padding: 0; }
+html { height: 100%; overflow: auto; }
+body { font-weight: normal; font-style: normal; font-family: Tahoma,Helvetica,Arial,sans-serif; font-size: 12px; background-color: white; width: 100%; height: 100%; text-align: center; }
+
+#maindiv { width: 95%; margin-left: auto; margin-right: auto; /*padding: 10px 0px 10px 0px;*/ }
+/*大表格样式*/
+table.normaltbl, table.redtbl, table.subtbl { table-layout: fixed; border-collapse: collapse; margin-left: auto; margin-right: auto; font-size: 14px; width: 100%; line-height: 20px; }
+
+table.redtbl { border: red 1px solid; color: red; }
+.normaltbl caption { font-weight: bold; font-size: 11pt; color: #555; height: 50px; line-height: 30px; text-align: center !important; }
+table.redtbl caption { font: bold 14pt/40px 黑体; }
+
+.normaltbl > tr > td, .normaltbl > tbody > tr > td, .subtbl > tbody > tr > td, .subtbl > thead > tr > td { text-align: left; padding: 8px 1px 8px 3px; line-height: 150%; }
+.normaltbl > tr > td.valtd, .normaltbl > tbody > tr > td.valtd, .subtbl > tbody > tr > td.valtd, .subtbl > thead > tr > td.valtd { background-color: #fffff9; }
+.redtbl > tr > td, .redtbl > tbody > tr > td { text-align: left; padding: 1px 1px 1px 3px; height: 26px; line-height: 150%; }
+
+.normaltbl > tbody > tr > td:first-child,
+.normaltbl > tbody > tr > td:nth-child(3) {
+    width: 144px; text-align: right;
+    padding-right:20px
+}
+
+table.subtbl { border: #dce6f2 1px solid; color: #333; text-align: left; }
+table.subtbl thead { background-color: #dce6f2; }
+.subtbl caption { text-align: center; font-size: 11pt; color: #333; line-height: 30px; }
+.subtbl > tbody > tr > td { border: 1px #dce6f2 solid; padding: 1px; height: 25px; }
+.subtbl > tbody > tr > td.DELBTN, .subtbl > thead > tr > td.ADDBTN { text-align: center; height: 26px; width: 70px; padding-left: 3px; text-decoration: none; }
+.subtbl > tfoot { display:none; }
+th { color: White; height: 25px; font: bold 10pt/26px 黑体; background-color: #1e90ff; }
+.subtbl > thead > tr > td.draghd { text-align: center; width: 40px; }
+.subtbl > tbody > tr > td.dragtd { text-align: center; cursor: move; /*background: #FAF8F8 url(../img/common/bg_btn.png) repeat-x center center;*/ }
+.dragtr { background-color: Gray; }
+.rowno { font-style: normal; }
+input[type=button], input[type=submit], button { padding: 3px 5px; line-height: 20px; height: 28px; font-size: 9pt; cursor: pointer; }
+input[type=radio], input[type=checkbox] { vertical-align: middle; margin-right: 3px; }
+.btn01 { padding: 3px 5px; margin: 0px; border: #87a3c1 1px solid; color: #333; background: url(../img/btn01.gif) 0px 0px; }
+.btn02 { padding: 3px 5px; margin: 0px; border: #a2904d 1px solid; color: #333; background: url(../img/btn01.gif) 0px -66px; }
+.TextBoxInChar { width: 98%; height: 22px; line-height: 22px; }
+.TextBoxInOutPage { width: 98%; overflow: auto; height: 22px; line-height: 22px; }
+.TextBoxInArea { width: 99%; overflow: auto; line-height: 1.5; }
+.TextBoxInDate { width: 96%; height: 22px; line-height: 22px; }
+.Radio { vertical-align: middle; margin-right: 3px; font-size: 12px; }
+.normaltbl .TextBoxInChar, .normaltbl .TextBoxInOutPage, .normaltbl .TextBoxInDate {
+    font-family: 'Microsoft YaHei'; height: 36px; display: block;
+    width: 100%; padding-left: 20px; font-size: 14px; background-image: none;
+    border: solid 1px #dfe5eb
+}
+.normaltbl .TextBoxInArea {
+    font-family: 'Microsoft YaHei'; height: 160px; display: block;
+    width: 100%; padding-left: 10px; font-size: 14px; background-image: none; border-radius: 3px;
+    border: solid 1px #dfe5eb; }
+.normaltbl select {
+    font-family: 'Microsoft YaHei';
+    height: 36px; display: block; width: 100%;
+    padding-left: 10px; font-size: 14px; background-image: none; border-radius: 3px;
+    border: solid 1px #dfe5eb }
+.redtbl .TextBoxInChar, .redtbl .TextBoxInDate, .redtbl .TextBoxInArea, .redtbl .TextBoxInOutPage { background-color: #ffffe0; border-width: 0px; padding-left: 2px; line-height: 20px; font-size: 10pt; /*float:left;*/ }
+.subtbl .TextBoxInChar, .subtbl .TextBoxInOutPage, .subtbl .TextBoxInArea { border: 1px solid white; box-sizing: border-box; padding-left: 2px; padding-right: 2px; line-height: 40px; /*background-color:#ffffe0;*/ }
+.subtbl .TextBoxInChar, .subtbl .TextBoxInOutPage { height: 40px; }
+.subtbl .Wdate { border:none;}
+.subtbl .RadioWraper { border:none;}
+a.subaddbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/add.png) no-repeat left center; text-decoration: none; }
+a.subdelbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/delete.png) no-repeat left center; text-decoration: none; }
+a.subinsbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/add.png) no-repeat left center; text-decoration: none; }
+a.subeditbtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/edit.png) no-repeat left center; text-decoration: none; }
+a.subcopybtn { display: inline-block; margin-left: auto; margin-right: auto; width: 20px; background: url(../img/common/copy.png) no-repeat left center; text-decoration: none; }
+.RadioWraper, .CheckWraper { height:36px;line-height:36px;width: 100%;padding-left: 10px;font-size: 14px;border-radius: 3px;border: solid 1px #999;}
+.RadioWraper input[type="checkbox"],
+.RadioWraper input[type="radio"],
+.CheckWraper input[type="checkbox"],
+.CheckWraper input[type="radio"] {margin:0; }
+.gray { color: Gray; }
+.red { color: red; }
+.green { color: green; }
+.center { margin-left: auto; margin-right: auto; }
+.normaltbl .TextBoxInChar.Read[readonly], .normaltbl .TextBoxInOutPage.Read[readonly], .normaltbl .TextBoxInDate.Read[readonly],
+.normaltbl select[disabled],.RadioWraper.Read, .CheckWraper.Read,.TextBoxInArea.Read { background: #f9fafb; }
+.hidden { display: none; }
+.menubar { height: 55px; overflow: hidden; z-index: 100; }
+.topnav { width: 100%; left: 0px; display: block; z-index: 100; overflow: visible; position: fixed; top: 0px; background: #fff; font-size:16px; height: 50px; border-bottom: 1px solid #ccc; padding-left: 10px; }
+a.linkbtn { line-height: 50px; padding: 0px 0px 0 20px; text-decoration: none; display: inline-block; color: #000; font-size: 14px; }
+a.linkbtn:hover { color: #32bce1; text-decoration: none; }
+.split { color: #b5b5b5; width: 20px; text-align: center; display: inline-block; font-style: normal; }
+.menubar ul { float: right; list-style-type: none; }
+.menubar ul li { padding: 0px 10px 0px 8px; float: left; margin-right: -2px; background: url(../img/edge1.gif) no-repeat 100% 50%; }
+label { cursor: pointer; }
+label.error { font-weight: 600; color: red; margin-left: 10px; width: auto; display: inline; }
+.RequiredStar { color: red; font-weight: bold; width: 12px; text-align: center; vertical-align: middle; width: 10px; height: 100%; margin-left: -32px; margin-top: 9px; position: absolute; z-index: 50; }
+.RequiredTbl { table-layout: fixed; display: inline-table; float: left; background-color: White; }
+.RequiredTbl tr td:first-child { width: 100%; }
+.RequiredTbl td { text-indent: 0px; padding: 0px; }
+.OutPageTbl td { text-indent: 0px; padding: 0px; }
+.ErrorMsg { background: #ffff99; padding: 6px; margin: 10px 0px; border: dotted 1px orangered; }
+.ErrorMsg ol { margin-left: 30px; }
+.wfheader { padding: 2px 0px 2px 50px; }
+.wfpage { text-align: center; padding: 10px; background: white; border-top: 2px solid gray; overflow: auto; height: 100%; }
+.wfdealinfo { margin-left: auto; margin-right: auto; padding-top: 10px; width: 100%; text-align: center; }
+.wfdealinfo th { color: black; height: 25px; font: bold 10pt/26px 黑体; background: #eee; }
+.TaskName { color: Blue; }
+
+.notice-wrap { position: fixed; top: 2px; right: 2px; width: 200px; z-index: 9999; }
+* html .notice-wrap { position: absolute; }
+.notice-item { height: 50px; color: #eee; padding: 6px 6px 0px 50px; font-family: Arial lucida Grande; font-size: 12px; border: 2px solid #999; display: block; position: relative; margin: 0px 0px 12px 0px; }
+.notice-wrap .success { background: #000 url(../img/common/success.png) no-repeat 5% 50%; }
+.notice-wrap .error { background: #000 url(../img/common/error.png) no-repeat 5% 50%; }
+.notice-wrap .notice { background: #000 url(../img/common/success.png) no-repeat 5% 50%; }
+.notice-item p { font-size: 16px; margin-top: 18px; font-weight: 600; }
+.notice-item-close { position: absolute; font-family: Arial; font-size: 12px; font-weight: bold; right: 6px; top: 6px; cursor: pointer; }
+
+.tip { overflow: auto; overflow-x: hidden; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; border: dotted 1px orange; background: #F9FB91; text-align: left; padding: 5px; }
+.noborder { border-width: 0px; }
+.checktbl td { padding: 2px 5px; }
+
+a { text-decoration: none; color: Blue; }
+a:hover { color: Red; }
+.linkAdd, .linkButton { background-color: #3597d4; border-radius: 3px; color: White; display: inline-block; padding: 3px 8px; margin: 2px 0px 2px 3px; font-weight: bold; }
+.linkAdd:hover, .linkButton:hover { color: White; }
+p.valp { padding: 0px 3px; word-wrap: break-word; display: inline; }
+
+.signspan { position: relative; height: 30px; width: 100px; display: inline-block; }
+.signimg { position: absolute; top: 0px; left: 0px; }
+
+body .qtip { line-height: 1.5; }
+#btnSaveAdd { background: url(../grid/images/add.png) no-repeat center left; }
+#btnSavea,
+#btnSave { background: url(../grid/images/disk.png) no-repeat center left; }
+#btnClose { background: url(../grid/images/crossred.png) no-repeat center left; }
+#btnDirection { background: url(../grid/images/view.png) no-repeat center left; }
+#btnAuth { background: url(../grid/images/gear.png) no-repeat center left; }
+#btnStartWF { padding-right: 10px; line-height: 23px; padding: 0px; text-decoration: none; display: inline-block; color: Blue; height: 23px; padding-left: 17px; background: url(../grid/images/edit.png) no-repeat center left; }
+
+.relbox { position:relative;}
+.absbox { position:absolute;background:#fff;border:solid 1px #999;max-height:360px;overflow:auto;border-top:none;display:none;z-index:100;}
+.absbox a { display:block;line-height:40px;padding:0 5px;}
+.absbox a:hover { background:#3597d4;color:#fff;}
+
+#T_PM_T_FileCatalog td { border: solid 1px #dce6f2; padding: 0px 7px; line-height: 50px;height:50px;}

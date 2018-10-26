@@ -1,0 +1,33 @@
+﻿* { margin: 0; padding: 0; list-style: none; box-sizing: border-box; }
+body { font-family: 'Microsoft YaHei'; font-size: 16px; color: #333; background: #e9edf6; }
+a, a:link, a:visited, a:hover, a:focus, a:active { font-family: 'Microsoft YaHei'; font-size: 16px; color: #333; text-decoration: none; cursor: pointer; }
+.sysboxs .sysitem { display: none; }
+/*大标题*/
+h1 { text-align:center;background:#4f5f6f;color:#fff;font-size:18px;padding:10px 0 15px 0;}
+/*标题*/
+.syscolumns { background: #b9d6e8; overflow: hidden;margin:20px 20px 0; }
+.syscolumns .colbox {}
+.syscolumns a { line-height: 60px; height: 60px; padding: 0 30px; display: block; float: left;color:#fff; }
+.syscolumns a:hover,
+.syscolumns a.hover { background: #fff;border-radius:3px 3px 0 0; color:#35bbde;border-bottom:solid 3px #35bbde;}
+/*内容*/
+.sysboxs { padding: 0 20px; overflow: hidden; }
+.sysboxs h3 { clear: both; text-align: center; padding: 20px 0;color:#666;font-size:16px; }
+.sysboxs dl { width: 49.5%; margin-right: 1%; float: left; background: #fff;  min-height: 200px; border-radius: 10px; box-shadow:5px 5px 5px #d5dae0;}
+.sysboxs dl:nth-child(2n) { margin-right:0;}
+.sysboxs dl.col2 { width: 100%; } 
+
+.sysboxs dt {background: #b9d6e8;padding:12px 20px;border-radius:5px 5px 0 0; }
+.sysboxs dt .iconfont { margin-right:5px; }
+.sysboxs dd {padding:10px 20px; }
+
+.sysboxs dl li { line-height:39px;border-bottom:solid 1px #b9d6e8;}
+.sysboxs dl li a{color:#999;}
+.sysboxs dl li p { float:right;}
+.sysboxs dl.col2 a{color:#777;} 
+.sysboxs dl.col2 div{display:none;} 
+.sysboxs dl.col2 li.hover div{display:block;color:#999;} 
+.sysbtn { font-style:normal;background:#32bce1;color:#fff;padding:3px 13px;border-radius:5px;margin-left:10px;}
+
+.syslink { background:#fff;border-radius:5px; box-shadow:5px 5px 5px #d5dae0;padding:20px;}
+.syslink p { float:right;}

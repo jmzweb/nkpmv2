@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EIS.Salary.exe" version="1.0.0.92" publicKeyToken="12f0689828adaa1f" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EIS.Salary" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="EIS.Salary.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIS.AppBase.dll" size="40448">
+      <assemblyIdentity name="EIS.AppBase" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rKqd2bcWWuzt6Iq2dJAZ7uoTmdo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIS.Interface.dll" size="19968">
+      <assemblyIdentity name="EIS.Interface" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>sETmnejeyC3O1iswt076zUMgY5c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EIS.Salary.exe" size="88576">
+      <assemblyIdentity name="EIS.Salary" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tYHmHT9PGlXT11BsAJmoDCyjSeY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Janus.Data.v3.dll" size="221184">
+      <assemblyIdentity name="Janus.Data.v3" version="3.5.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WywikZoTmLV4LRsYjhzKKI0YpQ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Janus.Windows.Common.v3.dll" size="208896">
+      <assemblyIdentity name="Janus.Windows.Common.v3" version="3.5.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>96fNPQFEdLGXGihCb5O3xw72Y5A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Janus.Windows.GridEX.v3.dll" size="1372160">
+      <assemblyIdentity name="Janus.Windows.GridEX.v3" version="3.5.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZlEgBdJ5q8IExEnULqvH/bHtMrE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LoreSoft.MathExpressions.dll" size="40960">
+      <assemblyIdentity name="LoreSoft.MathExpressions" version="1.0.0.0" publicKeyToken="21AAB55C9EAD0CB8" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lvY/uOpv8q4kLjHTR0rbBBrBl9s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NLog.dll" size="365056">
+      <assemblyIdentity name="NLog" version="2.0.0.0" publicKeyToken="5120E14C03D0593C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ZJDC9x/B5qaKQHxd0HGkXBUtCoo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EIS.Salary.exe.config" size="961">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5AY1tUMK4crAG/6N/T/8YNhkZP0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LIST\Administrator" issuerKeyHash="4a1e169f9b13e8e8ba09761466d6219cae8d6ab2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>U6j0Y2RYkQTszHv9WAkqyOhfBMA=</DigestValue></Reference></SignedInfo><SignatureValue>m5NBMFY5Lg1Byzy84mEtuaGTE8hwj1/EPGK5Fsx1vkuC3jHXrW4SV7caAdz+PM++4DIn4gX8/ellxLLRlhQlWrnGnfzq81UZKP71RQyHgwC6f0J2t223VrKF/yZ3DlYEK+hho2Qshx6stick2R1+aYRN3b0TLNlmu3L+rFCDotg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oadiKulW0xR/dRD4S5RbZYBhFRxS2sy2Gk5KjiJHmLrmmVkinNH0XDqkb8hrdekvVrgF/cq08kQgcFEcP3AY0mKviCFFeN4ChvDIzw3GoJ79BSEmQQOBNxwpiQg4rRQ9tt9JLLW9k0kAn713wzUGFSw+hg5lpP/wRZBB9aJBhSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c0045fe8c82a0958fd7bccec0491586463f4a853" Description="" Url=""><as:assemblyIdentity name="EIS.Salary.exe" version="1.0.0.92" publicKeyToken="12f0689828adaa1f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIST\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ZH+DsfNoeAE65ihK6YzGAjfa/q8=</DigestValue></Reference></SignedInfo><SignatureValue>DYt5sh+c+AS1SfOHXQWH7O0lVCwrQphsdIf88emnbkXbpVhE47gLdlV51TWyjgHW+FAr2erdiLgQ/LlVvJh3h0d7hMV/sfuSGG7QFNCmAzr3zN9SK0WP8tlrvTiCpVUHM5BuF8BsIKVd/RGUpXPLbRqgP5eF7XESck5H8vewz+Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oadiKulW0xR/dRD4S5RbZYBhFRxS2sy2Gk5KjiJHmLrmmVkinNH0XDqkb8hrdekvVrgF/cq08kQgcFEcP3AY0mKviCFFeN4ChvDIzw3GoJ79BSEmQQOBNxwpiQg4rRQ9tt9JLLW9k0kAn713wzUGFSw+hg5lpP/wRZBB9aJBhSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQElDcVrwDpqtMM9MW4A+gLjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQATABJAFMAVABcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTcwNTE1MTE1ODUwWhcNMTgwNTE1MTc1ODUwWjAvMS0wKwYDVQQDHiQATABJAFMAVABcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKGnYirpVtMUf3UQ+EuUW2WAYRUcUtrMthpOSo4iR5i65plZIpzR9Fw6pG/Ia3XpL1a4Bf3KtPJEIHBRHD9wGNJir4ghRXjeAobwyM8NxqCe/QUhJkEDgTccKYkIOK0UPbbfSSy1vZNJAJ+9d8M1BhUsPoYOZaT/8EWQQfWiQYUpAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABcpwj1yHJVbNMAAJT5j49xUEeYMdCh0ycGWjMhYXeaEbMZGodQVUTweYLfdDv1Rrov9Mfjg4j83j9Nun/peIOQNERtaFbbLH+Yh/a7m5yzcRtTIal+j8Spg3WHafPhAPMHfIDTRzxqk8zi5cSSIu1fT7NhP1tb8KJAf/IWcb3PY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

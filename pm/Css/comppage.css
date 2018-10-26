@@ -1,0 +1,66 @@
+﻿div {
+    margin: 0 auto;
+}
+.subtitles {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 7px;
+    background: #fff;
+    z-index: 500;
+}
+.subtitles .subbtns {
+    position: fixed;
+    background: #fff;
+    border: 1px solid #3597D4;
+    border-radius: .5em;
+      list-style: none;
+}
+.subtitles .subbtns a {
+    display: block;
+    font-size: 12px;
+    padding: 10px 10px;
+    cursor:pointer;
+  border-bottom: 1px solid #EFE8E8;
+}
+.subtitles .subbtns a {
+    display: block;
+    font-size: 12px;
+    padding: 10px 10px;
+    cursor:pointer;
+    border-bottom: 1px solid #EFE8E8;
+}
+.subtitles .subbtns a:last-child{
+    display: block;
+    font-size: 12px;
+    padding: 10px 10px;
+    cursor:pointer;
+    border-bottom: none;
+}
+.subtitles .subbtns a:hover:first-child, .subtitles .subbtns a.select:first-child {
+    background: #3597d4;
+    color: #fff;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+.subtitles .subbtns a:hover, .subtitles .subbtns a.select {
+    background: #3597d4;
+    color: #fff;
+
+}
+.subtitles .subbtns a:hover:last-child, .subtitles .subbtns a.select:last-child {
+    background: #3597d4;
+    color: #fff;
+    border-bottom-right-radius: .5em;
+    border-bottom-left-radius: .5em;
+}
+.tabright {
+    margin-left: 80px;
+     
+}
+.formtabletitle {
+    width: 98%;
+    margin: 15px auto;
+    text-align: center;
+    position: relative;
+}    

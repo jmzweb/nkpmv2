@@ -1,0 +1,28 @@
+﻿* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body { background: #fff url(../img/desktop/loginnkbg1.jpg) no-repeat center 200px; }
+#loginmsg2 { color: red; line-height: 30px; }
+.zbox { width: 1200px; margin: 0 auto; position: relative; }
+
+.logobox {background: #fff;  }
+.nklogo { margin: 50px 0; height: 100px; }
+
+.loginbox { width: 360px; height: 360px; position: absolute; top: 120px; right: 0; background: #fff; }
+.loginbox h1 { background: #0070ca; line-height: 65px; text-align: center; color: #fff; font-size: 28px; }
+.loginbox .formbox { padding: 50px 70px 0; }
+.loginbox .formbox .login_line { padding-left: 35px; height: 50px; margin-bottom: 10px; border-bottom: solid 1px #eee; }
+.loginbox .formbox .login1 { background: url(../img/desktop/nklogin1.png) no-repeat left center; }
+.loginbox .formbox .login2 { background: url(../img/desktop/nklogin2.png) no-repeat left center; }
+
+.loginbox .formbox .login_line input { width: 100%; height: 100%; border: none; }
+
+#loginBtn { width: 100%; height: 40px; border: none; background: #0070ca; color: #fff; border-radius: 20px; margin-top: 20px; font-size: 18px; }
+
+.copyright { position: absolute; bottom: 0px; background: #fff; text-align: center; width: 100%; height: 100px; line-height: 100px; }
+
+
+@media only screen and (max-width:1600px) {
+	body { background-position-y: 0px; }
+	.nklogo { margin: 20px 0; height: 60px; }
+	.loginbox { top: 50px; }
+}

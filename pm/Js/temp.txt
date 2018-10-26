@@ -1,0 +1,33 @@
+    /* 初始化数据录入
+    $("[data-type]").live("focus", function () {
+        var $input = $(this);
+        if ($input.prop("readOnly") || $input.prop("ReadOnly") || $input.prop("readonly"))
+            return false;
+        if ($input.attr("data-type") == "int") {
+            if (!$input.attr("init")) {
+                $input.attr("init", "1");
+                $input.maskMoney({ precision: 0 });
+            }
+        }
+        else if ($input.attr("data-type") == "float") {
+            if (!$input.attr("init")) {
+                $input.attr("init", "1");
+                
+                var _val = $input.val();
+                var _zstr = "000000";
+                var _zlen = parseInt($input.attr("precision"));
+                var _arr = _val.split(".");
+                if (_val != "") {
+                    if (_arr.length == 1) {
+                        $input.val(_val + "." + _zstr.substr(0, _zlen));
+                    }
+                    else {
+                        _zstr = _arr[1] + _zstr;
+                        $input.val(_arr[0] + "." + _zstr.substr(0, _zlen));
+                    }
+                }
+                $input.maskMoney({ precision: _zlen });
+            }
+        }
+    });
+    */

@@ -1,0 +1,307 @@
+﻿.dd {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    list-style: none;
+    line-height: 20px;
+}
+
+.dd.shadowed .dd-handle, .dd.shadowed .dd2-content {
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,.3);
+    box-shadow: 0 0 4px rgba(0,0,0,.3);
+}
+
+.dd.bordered .dd-handle, .dd.bordered .dd2-content {
+    border: 1px solid #cfcfcf;
+}
+
+.dd.darker .dd-handle, .dd.darker .dd2-content {
+    background-color: #eee;
+}
+
+.dd.darker .dd2-handle, .dd.darker .dd-dragel > li > .dd2-handle {
+    background-color: #e5e5e5;
+}
+
+.dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dd-list > li > .dd-handle, .dd-list > li > .dd2-content {
+}
+
+.dd-list > li > .dd-handle[class*="bg-"], .dd-list > li > .dd2-content[class*="bg-"] {
+    color: #fff;
+}
+
+.dd-list .dd-list {
+    padding-left: 30px;
+}
+
+.dd-collapsed.dd-list {
+    display: none;
+}
+
+.dd-item, .dd-empty, .dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    line-height: 20px;
+}
+
+.dd-handle, .dd2-content {
+    display: block;
+    min-height: 42px;
+    margin: 5px 0;
+    padding: 3px 12px;
+    background: #f5f5f5;
+    color: #737373;
+    font-size: 13px;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dd-handle:hover, .dd2-content:hover, .dd-handle:hover, .dd2-content:hover {
+    color: #262626;
+    background: #eee;
+}
+
+.dd-handle[class*="btn-"], .dd2-content[class*="btn-"] {
+    color: #fff;
+    border: 0;
+    padding: 9px 12px;
+}
+
+.dd-handle[class*="btn-"]:hover, .dd2-content[class*="btn-"]:hover {
+    opacity: .85;
+    color: #fff;
+}
+
+.dd2-handle + .dd2-content, .dd2-handle + .dd2-content[class*="btn-"] {
+    padding-left: 44px;
+}
+
+.dd-handle[class*="btn-"]:hover, .dd2-content[class*="btn-"] .dd2-handle[class*="btn-"]:hover + .dd2-content[class*="btn-"] {
+    color: #fff;
+}
+
+.dd-item > button:hover ~ .dd-handle[class*="btn-"], .dd-item > button:hover ~ .dd2-content[class*="btn-"] {
+    opacity: .85;
+    color: #fff;
+}
+
+.dd2-handle:hover ~ .dd2-content {
+    color: #262626;
+    background: #f5f5f5;
+}
+
+.dd2-item.dd-item > button {
+    margin-left: 42px;
+}
+
+.dd-item > button {
+    display: block;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 20px;
+    margin: 5px 1px 5px 5px;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+    top: 4px;
+    left: 1px;
+    color: #737373;
+}
+
+.dd-item > button:before {
+    font-family: FontAwesome;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.dd-item > button[data-action="collapse"]:before {
+    content: '';
+}
+
+.dd-item > button:hover {
+    color: #737373;
+}
+
+.dd-item .dd-colored > button, .dd-item.dd-colored > button:hover {
+    color: #f5f5f5;
+}
+
+.dd-placeholder, .dd-empty {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #f5f5f5;
+    border: 1px dashed #d0d0d0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dd-empty {
+    border-color: #aaa;
+    border-style: solid;
+    background-color: #e5e5e5;
+}
+
+.dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 999;
+    zoom: 1;
+    filter: alpha(opacity=80);
+    -webkit-opacity: .8;
+    -moz-opacity: .8;
+    opacity: .8;
+}
+
+.dd-dragel > li > .dd-handle {
+    color: #000;
+    background: #fbfbfb;
+    border-left: 2px solid #444;
+    position: relative;
+}
+
+.dd-dragel > .dd-item > .dd-handle {
+    margin-top: 0;
+}
+
+.dd-list > li[class*="bordered-"] {
+    border-width: 0;
+    padding: 0;
+}
+
+.dd-list > li[class*="bordered-"] > .dd-handle {
+    border-left: 2px solid;
+    border-left-color: inherit;
+}
+
+.dd-list > li.bordered-blue > .dd-handle {
+    border-left-color: #5db2ff;
+}
+
+.dd-list > li.bordered-primary > .dd-handle {
+    border-left-color: #4374e0;
+}
+
+.dd-list > li.bordered-danger > .dd-handle {
+    border-left-color: #d73d32;
+}
+
+.dd-list > li.bordered-warning > .dd-handle {
+    border-left-color: #f4b400;
+}
+
+.dd-list > li.bordered-success > .dd-handle {
+    border-left-color: #53a93f;
+}
+
+.dd-list > li.bordered-silver > .dd-handle {
+    border-left-color: #777;
+}
+
+.dd-list > li.bordered-inverse > .dd-handle {
+    border-left-color: #444;
+}
+
+.dd-list > li.bordered-blueberry > .dd-handle {
+    border-left-color: #6f85bf;
+}
+
+.dd-list > li.bordered-palegreen > .dd-handle {
+    border-left-color: #a0d468;
+}
+
+.dd-list > li.bordered-orange > .dd-handle {
+    border-left-color: #fb6e52;
+}
+
+.dd-list > li.bordered-darkorange > .dd-handle {
+    border-left-color: #ed4e2a;
+}
+
+.dd-list > li.bordered-magenta > .dd-handle {
+    border-left-color: #bc5679;
+}
+
+.dd-list > li.bordered-purple > .dd-handle {
+    border-left-color: #7e3794;
+}
+
+.dd-list > li.bordered-maroon > .dd-handle {
+    border-left-color: #981b48;
+}
+
+.dd-list > li > .dd-handle .sticker {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dd2-handle, .dd-dragel > li > .dd2-handle {
+    left: 0;
+    top: 0;
+    width: 42px;
+    margin: 0;
+    border-width: 1px 1px 0 0;
+    text-align: center;
+    padding: 0 !important;
+    line-height: 42px;
+    height: 42px;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.dd2-handle .normal-icon, .dd-dragel > li > .dd2-handle .normal-icon, .dd2-handle .drag-icon, .dd-dragel > li > .dd2-handle .drag-icon {
+    font-size: 16px;
+}
+
+.dd2-handle:hover, .dd-dragel > li > .dd2-handle {
+    background: #f3f3f3;
+}
+
+.dd-item > .dd2-handle .drag-icon {
+    display: none;
+}
+
+.dd-dragel > .dd-item > .dd2-handle .drag-icon {
+    display: inline;
+}
+
+.dd-dragel > .dd-item > .dd2-handle .normal-icon {
+    display: none;
+}
